@@ -1,0 +1,23 @@
+{
+  "model_path": "models/base",
+  "device": "cpu",
+  "compute_type": "int8",
+  "threads": 2,
+  "language": null,
+  "chunk_seconds": 120,
+  "overlap_seconds": 2,
+  "silence_db": -38,
+  "silence_seconds": 0.4,
+  "boundary_search_seconds": 15,
+  "vad_threshold": 0.5,
+  "review_logprob": -0.8,
+  "review_word_probability": 0.45,
+  "review_max_attempts": 8,
+  "review_padding_seconds": 3,
+  "review_max_seconds": 30,
+  "glossary": null,
+  "context": null,
+  "speakers": "none",
+  "formats": ["md", "txt", "json", "srt"],
+  "output_dir": "../transcription-output"
+}

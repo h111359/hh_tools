@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Speech2Text installation artifacts and generated output
+/speech2text/.venv/
+/speech2text/models/
+/speech2text/cache/
+/transcription-output/
+
+# Personal settings and recording hints; keep shipped defaults and templates
+/speech2text/config/*
+!/speech2text/config/default.json
+!/speech2text/config/*.example.txt
+
+# Local audio inputs
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.opus
+*.wma
+*.aiff
+*.aif
